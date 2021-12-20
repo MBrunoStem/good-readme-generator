@@ -1,7 +1,7 @@
-# Project Title: README ![License](../assets/LicenseNone.png)
+# Project Title: README Generator ![License](../assets/LicenseMIT.png)
 
 ## Description
-TODO
+Generate a README
         
 ## Table of Contents
 * [Installation](#Installation)
@@ -17,21 +17,21 @@ TODO
 * [Questions](#Questions)
 
 ## Installation
-YES
+Install it
         
 ## Usage
-YES
+Use it
         
 ## Licensing
-No license
+The MIT License is a permissive free software license originating at the Massachusetts Institute of Technology (MIT) in the late 1980s. As a permissive license, it puts only very limited restriction on reuse and has, therefore, high license compatibility.
 
 ## Contribution Guidelines
-sdgasdgsa
+Contribute please
 
 ## Test Instructions
-saSfasE
+Test it
 
 ## Questions
-* GitHub Profile: [Link](https://github.com/AFDASFAS)
-* Email: FASASFA
-* Preferred method of contact: GitHub
+* GitHub Profile: [MBrunoStem](https://github.com/MBrunoStem)
+* Email: mbrunostem@gmail.com
+* Preferred method of contact: Email

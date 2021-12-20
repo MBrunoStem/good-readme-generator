@@ -1,10 +1,8 @@
-// TODO: Include packages needed for this application
-const util = require('util');
+// Included packages used in this application
 const fs = require('fs');
 const inquirer = require('inquirer');
-// const generateMarkdown = require('./utils/generateMarkdown');
 
-// TODO: Create an array of questions for user input
+// An array of questions for user input
 const questions = [
     {
         type: "input",
@@ -60,12 +58,11 @@ const questions = [
     },
 ];
 
-// TODO: Create a function to write README file
-// function writeToFile(fileName, data) {}
+// Function to render licensing information
 function renderLicenseSection(license) {
     switch (license) {
       case "MIT":
-        text = `The MIT License is a permissive free software license originating at the Massachusetts Institute of Technology (MIT)[6] in the late 1980s.[7] As a permissive license, it puts only very limited restriction on reuse and has, therefore, high license compatibility.`
+        text = `The MIT License is a permissive free software license originating at the Massachusetts Institute of Technology (MIT) in the late 1980s. As a permissive license, it puts only very limited restriction on reuse and has, therefore, high license compatibility.`
         return text;
       case "GPLv3":
         text = `You may copy, distribute and modify the software as long as you track changes/dates in source files. Any modifications to or software including (via compiler) GPL-licensed code must also be made available under the GPL along with build & install instructions.`
@@ -74,12 +71,12 @@ function renderLicenseSection(license) {
          text = `As its name implies, the GNU Affero General Public License (AGPL) is part of the GNU GPL family, which also includes the LGPL License, GPL v2, and GPL v3. All of these open source licenses are part of Richard Stallman’s GNU Project, a free and open source operating system and accompanying philosophy regarding the sharing and modification of software.`
         return text;
         case "None":
-        text = `No license`
+        text = `No license for this application`
         return text;
       }
   }
 
-// TODO: Create a function to initialize app
+// Function to initialize app
 function init() {
     inquirer.prompt(questions)
         .then(function (data) {
@@ -118,10 +115,11 @@ ${data.contributing}
 ${data.tests}
 
 ## Questions
-* GitHub Profile: [Link](https://github.com/${data.github})
+* GitHub Profile: [${data.github}](https://github.com/${data.github})
 * Email: ${data.email}
 * Preferred method of contact: ${data.contact}`
             fs.writeFileSync('./output/README.md', readMeString);
+            return text;
         })
 
 }
