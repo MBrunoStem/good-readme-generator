@@ -25,5 +25,5 @@ THEN I see a link to my GitHub profile, my email address, and my preferred metho
 
 
 
-## Deployed Site
-[Link](https://github.com/MBrunoStem/good-readme-generator)
+## Video Demo
+[Link](https://watch.screencastify.com/v/GKsqVD9d8VcvbRlVpuJk)

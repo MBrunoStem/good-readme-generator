@@ -1,7 +1,7 @@
-# Project Title: README Generator ![License](../assets/LicenseMIT.png)
+# Project Title: README Generator ![License](../assets/LicenseGPLv3.png)
 
 ## Description
-Generate a README
+To render a README based on user input in the command line
         
 ## Table of Contents
 * [Installation](#Installation)
@@ -17,19 +17,19 @@ Generate a README
 * [Questions](#Questions)
 
 ## Installation
-Install it
+Install it!
         
 ## Usage
-Use it
+Use it!
         
 ## Licensing
-The MIT License is a permissive free software license originating at the Massachusetts Institute of Technology (MIT) in the late 1980s. As a permissive license, it puts only very limited restriction on reuse and has, therefore, high license compatibility.
+You may copy, distribute and modify the software as long as you track changes/dates in source files. Any modifications to or software including (via compiler) GPL-licensed code must also be made available under the GPL along with build & install instructions.
 
 ## Contribution Guidelines
-Contribute please
+Contribute to it!
 
 ## Test Instructions
-Test it
+Test it!
 
 ## Questions
 * GitHub Profile: [MBrunoStem](https://github.com/MBrunoStem)
